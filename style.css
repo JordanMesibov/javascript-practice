@@ -1,0 +1,47 @@
+.title {
+    font-size: 25px;
+    font-family: 'Roboto Mono', monospace;
+    color: #CEE5F2;
+}
+
+#JS-Practice {
+    background-color: #57467B;
+}
+
+#flower-logo {
+    height: 50px;
+}
+
+.teaser-odd {
+    background-color: #F46036;
+    color: #0B132B;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.teaser-even {
+    background-color: #0B132B;
+    color: #F46036;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.reveal {
+    border-color: #0B132B;
+    border-radius: 5px;
+    background-color: #57467B;
+    color: #CEE5F2;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.reveal:hover {
+    background-color: #CEE5F2;
+    color: #57467B;
+}
+
+p {
+    font-size: 12px;
+}
+
+#A1-answer, #A2-answer, #A3-answer, #A4-answer, #A5-answer {
+    background-color: #CEE5F2;
+}
