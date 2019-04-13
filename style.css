@@ -45,3 +45,7 @@ p {
 #A1-answer, #A2-answer, #A3-answer, #A4-answer, #A5-answer {
     background-color: #CEE5F2;
 }
+
+.answersIMG {
+    width: 100%;
+}

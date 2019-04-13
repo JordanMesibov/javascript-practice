@@ -7,7 +7,7 @@ $(document).ready(function () {
         switch (buttonClicked) {
             case "A1-btn":
                 $("#A1-answer").html(`
-                    <p>let multiplyFunction = function(x,y) {</p>
+                    <p>multiplyFunction (x,y) {</p>
                         <p>return (x * y);</p>
                     <p>}</p>
                     <p>example use:</p>
@@ -17,7 +17,7 @@ $(document).ready(function () {
                 break;
 
             case "A2-btn":
-                $("#A2-answer").html("hello");
+                $("#A2-answer").html("<img src='./images/Answer2.JPG' class='answersIMG'>");
                 break;
 
             case "A3-btn":
