@@ -1,5 +1,5 @@
 .title {
-    font-size: 25px;
+    font-size: 20px;
     font-family: 'Roboto Mono', monospace;
     color: #CEE5F2;
 }
@@ -9,7 +9,7 @@
 }
 
 #flower-logo {
-    height: 50px;
+    width: 30px;
 }
 
 .teaser-odd {
