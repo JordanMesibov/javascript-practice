@@ -21,15 +21,20 @@ $(document).ready(function () {
                 break;
 
             case "A3-btn":
-                $("#A3-answer").html("hello");
+                $("#A3-answer").html("<img src='./images/Answer3.JPG' class='answersIMG'>");
                 break;
 
             case "A4-btn":
-                $("#A4-answer").html("hello");
+            $("#A4-answer").html("<img src='./images/Answer4.JPG' class='answersIMG'>");
                 break;
 
             case "A5-btn":
-                $("#A5-answer").html("hello");
+                $(".teaser-odd").addClass("teaser-odd-new");
+                $(".teaser-even").addClass("teaser-even-new");
+                $("#A5-answer").html("<img src='./images/Answer5.JPG' class='answersIMG'>");
+                // This switch case is part of an on click function.
+                // The colors are changed via the new classes in the CSS file
+                
                 break;
         }
 

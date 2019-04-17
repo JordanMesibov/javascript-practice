@@ -49,3 +49,27 @@ p {
 .answersIMG {
     width: 100%;
 }
+
+/* css instructions for question 5 */
+.teaser-odd-new {
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    color: #0B132B;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.teaser-even-new {
+    background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
+    color: rgb(49, 20, 12);
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+    .answersIMG {
+        
+    }
+}
