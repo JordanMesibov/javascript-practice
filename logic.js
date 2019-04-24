@@ -25,7 +25,7 @@ $(document).ready(function () {
                 break;
 
             case "A4-btn":
-            $("#A4-answer").html("<img src='./images/Answer4.JPG' class='answersIMG'>");
+                $("#A4-answer").html("<img src='./images/Answer4.JPG' class='answersIMG'>");
                 break;
 
             case "A5-btn":
@@ -34,7 +34,11 @@ $(document).ready(function () {
                 $("#A5-answer").html("<img src='./images/Answer5.JPG' class='answersIMG'>");
                 // This switch case is part of an on click function.
                 // The colors are changed via the new classes in the CSS file
-                
+
+                break;
+
+            case "A6-btn":
+                $("#A6-answer").html("<img src='./images/Answer6.JPG' class='answersIMG'>");
                 break;
         }
 
